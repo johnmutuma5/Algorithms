@@ -8,16 +8,14 @@ export function sort(sortArray: number[]): number[] {
 
 
 function mergeSort(array: number[], lower: number, upper: number): number[] {
-  if(upper <= lower){
+  if(upper === lower){
     return [array[upper]];
   }
   const midpoint = Math.floor((upper + lower) / 2);
 
   const right = mergeSort(array, lower, midpoint);
   const left = mergeSort(array, midpoint + 1, upper);
-
-  const mergedResult = merge(right, left);
-  return mergedResult;
+  return  merge(right, left);
 }
 
 function merge(right: number[], left: number[]) {
