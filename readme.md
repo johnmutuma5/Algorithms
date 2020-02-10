@@ -1,13 +1,12 @@
-# simplest-typescript-webpack-boilerplate
+# Algorithms
 
-I didn't want complicated. This is just enough boilerplate to get moving with
-writing Typescript for use in the browser.
+Algorithms implementations in TypeScript
 
 ## Installation
 
 ```
-git clone https://github.com/ianks/simplest-typescript-webpack-boilerplate
-cd simplest-typescript-webpack-boilerplate
+git clone https://github.com/https://github.com/johnmutuma5/Algorithms
+cd Algorithms
 npm i
 npm start
 ```
