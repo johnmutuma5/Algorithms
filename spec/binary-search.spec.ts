@@ -7,12 +7,12 @@ describe('Binary Search', () => {
   });
 
   it('should find an existing search term an unsorted array', () => {
-    const sortedContainerArray = [18,10,2,13,4,0,-1,5];
-    expect(binarySearch(4, sortedContainerArray)).toBe(true);
+    const unsortedContainerArray = [18,10,2,13,4,0,-1,5];
+    expect(binarySearch(4, unsortedContainerArray)).toBe(true);
   });
 
   it('should not find a missing search term', () => {
-    const sortedContainerArray = [1,10,2,3,4,0,-1,5];
-    expect(binarySearch(9, sortedContainerArray)).toBe(false);
+    const unsortedContainerArray = [1,10,2,3,4,0,-1,5];
+    expect(binarySearch(9, unsortedContainerArray)).toBe(false);
   });
 });
