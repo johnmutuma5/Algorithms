@@ -1,8 +1,8 @@
-import { sort } from './mergeSort';
-import { isPalindrome } from './palindrome';
+import { sort as mergeSort } from './algorithms/merge-sort';
+import { isPalindrome } from './algorithms/palindrome';
 
 const arrayToSort = [4, 39, 84, 9, 3, 3, 2, 1, -1, 5];
-const sortedArray: number[] = sort(arrayToSort);
+const sortedArray: number[] = mergeSort(arrayToSort);
 console.log(`Merge sort ${arrayToSort}: `, sortedArray);
 
 const word = 'Deleveled';
