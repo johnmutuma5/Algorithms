@@ -1,9 +1,10 @@
 {
   "compilerOptions": {
     "module": "commonjs",
+    "moduleResolution": "node",
     "noImplicitAny": true,
     "sourceMap": true,
-    "target": "es5"
-  },
-  "files": []
+    "target": "es5",
+    "outDir": "dist"
+  }
 }

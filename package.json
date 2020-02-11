@@ -3,15 +3,21 @@
   "version": "1.0.0",
   "description": "Simplest Typescript webpack loader, ever.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "tsc && jasmine --reporter=jasmine-console-reporter --config=jasmine.json && rm -rf dist",
     "start": "webpack-dev-server --content-base ./public"
   },
   "author": "Ian Ker-Seymer <i.kerseymer@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/jasmine": "^3.5.3",
+    "@types/node": "^13.7.0",
+    "jasmine": "^3.5.0",
+    "jasmine-console-reporter": "^3.1.0",
     "ts-loader": "^0.7.2",
-    "typescript": "^1.7.5",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5",
     "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.0"
-  }
+  },
+  "dependencies": {}
 }
