@@ -1,4 +1,3 @@
-import "jasmine";
 import { isPalindrome } from '../algorithms/palindrome';
 
 describe('Palindromes', () => {

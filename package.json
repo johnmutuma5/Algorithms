@@ -4,6 +4,7 @@
   "description": "Simplest Typescript webpack loader, ever.",
   "scripts": {
     "test": "tsc && jasmine --reporter=jasmine-console-reporter --config=jasmine.json && rm -rf dist",
+    "coverage": "nyc npm run test && nyc report --reporter=html",
     "start": "webpack-dev-server --content-base ./public"
   },
   "author": "Ian Ker-Seymer <i.kerseymer@gmail.com>",
@@ -13,6 +14,7 @@
     "@types/node": "^13.7.0",
     "jasmine": "^3.5.0",
     "jasmine-console-reporter": "^3.1.0",
+    "nyc": "^15.0.0",
     "ts-loader": "^0.7.2",
     "ts-node": "^8.6.2",
     "typescript": "^3.7.5",
