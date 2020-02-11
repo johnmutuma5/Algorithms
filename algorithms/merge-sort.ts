@@ -1,3 +1,21 @@
+/**
+ *
+ *
+ *                                                                
+ *  o     o                              .oPYo.                o  
+ *  8b   d8                              8                     8  
+ *  8`b d'8 .oPYo. oPYo. .oPYo. .oPYo.   `Yooo. .oPYo. oPYo.  o8P 
+ *  8 `o' 8 8oooo8 8  `' 8    8 8oooo8       `8 8    8 8  `'   8  
+ *  8     8 8.     8     8    8 8.            8 8    8 8       8  
+ *  8     8 `Yooo' 8     `YooP8 `Yooo'   `YooP' `YooP' 8       8  
+ *  ..::::..:.....:..:::::....8 :.....::::.....::.....:..::::::..:
+ *  :::::::::::::::::::::::ooP'.::::::::::::::::::::::::::::::::::
+ *  :::::::::::::::::::::::...::::::::::::::::::::::::::::::::::::
+ *
+ *
+ *  A divide and conquer sorting algorithm Onlogn
+ *
+ */
 export function sort(sortArray: number[]): number[] {
   const lower = 0;
   const upper = sortArray.length - 1;
@@ -19,7 +37,7 @@ function mergeSort(array: number[], lower: number, upper: number): number[] {
 }
 
 function merge(right: number[], left: number[]) {
-  const result = [];
+  const result: number[] = [];
   let leftIndex = 0;
   let rightIndex = 0;
 
