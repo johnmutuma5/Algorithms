@@ -19,9 +19,7 @@
 export function sort(sortArray: number[]): number[] {
   const lower = 0;
   const upper = sortArray.length - 1;
-
-  const sortedResult = mergeSort(sortArray, lower, upper);
-  return sortedResult;
+  return mergeSort(sortArray, lower, upper);
 }
 
 
