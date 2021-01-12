@@ -15,7 +15,7 @@
  *
  */
 
-import { sort as mergeSort } from './merge-sort';
+import { sort as mergeSort } from './mergeSort';
 
 /**
  *

@@ -1,6 +1,6 @@
-import { sort as mergeSort } from './algorithms/merge-sort';
+import { sort as mergeSort } from './algorithms/mergeSort';
 import { isPalindrome } from './algorithms/palindrome';
-import { search as binarySearch } from './algorithms/binary-search';
+import { search as binarySearch } from './algorithms/binarySearch';
 
 const arrayToSort = [4, 39, 84, 9, 3, 3, 2, 1, -1, 5];
 const sortedArray: number[] = mergeSort(arrayToSort);

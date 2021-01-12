@@ -1,4 +1,4 @@
-import { sort as mergeSort } from '../algorithms/merge-sort'
+import { sort as mergeSort } from '../algorithms/mergeSort'
 
 describe('Merge sort', () => {
   it('should sort an array with even length', () => {

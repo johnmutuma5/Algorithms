@@ -1,4 +1,4 @@
-import { search as binarySearch } from '../algorithms/binary-search'
+import { search as binarySearch } from '../algorithms/binarySearch'
 
 describe('Binary Search', () => {
   it('should find an existing search term in sorted array', () => {
