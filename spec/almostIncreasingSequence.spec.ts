@@ -6,7 +6,6 @@ describe('Almost increasing sequence', () => {
     expect(almostIncreasingSequence(sequence)).toBe(false);
   });
 
-
   it('should be true for case 2', () => {
     const sequence = [1, 3, 2];
     expect(almostIncreasingSequence(sequence)).toBe(true);

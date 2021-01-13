@@ -1,4 +1,4 @@
-import {shapeArea, shapeAreaNoRecursive} from "../algorithms/shape-area";
+import {shapeArea, shapeAreaNoRecursive} from "../algorithms/shapeArea";
 
 describe('Shape Area Interesting polygons', () => {
   it('Should return 41 when n = 5', () => {

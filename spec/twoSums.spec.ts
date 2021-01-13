@@ -1,4 +1,4 @@
-import { twoSum } from '../algorithms/two-sums';
+import { twoSum } from '../algorithms/twoSums';
 
 
 describe('twoSum', () => {

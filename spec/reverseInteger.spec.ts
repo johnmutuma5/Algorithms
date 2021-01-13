@@ -1,4 +1,4 @@
-import {reverse} from '../algorithms/reverse-integer';
+import {reverse} from '../algorithms/reverseInteger';
 
 describe('Reverse Integer', () => {
   it('should reverse positive integers', () => {
